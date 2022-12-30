@@ -2,7 +2,7 @@ import './logo.scss'
 
 const index = () => {
   return (
-    <img className="logo" src="/logoooo.png" alt="logo" />
+    <img className="logo" src="/logo-purple.png" alt="logo" />
   )
 }
 

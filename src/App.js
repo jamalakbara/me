@@ -5,7 +5,7 @@ import Home from './routes/Home'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Navbar />
       
       <Home />
@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" component={Home} />
       </Routes>
       {/* <Route path="/about" component={About} /> */}
-    </>
+    </div>
   );
 }
 

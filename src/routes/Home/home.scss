@@ -1,0 +1,35 @@
+@import '/public//css/general.scss';
+
+.home{
+  display: flex;
+  width: 100%;
+  height: 100vh - $navbar-height;
+
+  &__main{
+    flex: 1 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__desc{
+    display: flex;
+    margin: 10px 0;
+    .arrow-icon{
+      margin-top: 5px;
+      margin-right: 20px;
+    }
+  }
+
+  &__misc{
+    flex: 1 1 66.666%;
+  }
+
+  &__foot{
+    margin: 24px 0;
+  }
+
+  &__buttons{
+    display: flex;
+  }
+}

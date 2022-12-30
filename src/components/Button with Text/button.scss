@@ -1,0 +1,73 @@
+@import '/public/css/general.scss';
+
+BASE_BUTTON_STYLE{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $purple;
+  margin: 0 10px;
+  padding: 20px;
+  max-width: 120px;
+  border-radius: 24px;
+}
+
+BASE_FIRST_BUTTON_STYLE{
+  margin-left: 0;
+}
+
+BASE_LAST_BUTTON_STYLE{
+  margin-right: 0;
+}
+
+BASE_BUTTON_LABEL_STYLE{
+  color: white;
+  font-weight: bold;
+}
+
+BASE_BUTTON_ICON_STYLE{
+  margin-left: 10px;
+  color: white;
+}
+
+.button{
+  @extend BASE_BUTTON_STYLE;
+
+  &:first-child{
+    @extend BASE_FIRST_BUTTON_STYLE;
+  }
+
+  &:last-child{
+    @extend BASE_LAST_BUTTON_STYLE;
+  }
+
+  &__label{
+    @extend BASE_BUTTON_LABEL_STYLE;
+  }
+
+  &__icon{
+    @extend BASE_BUTTON_ICON_STYLE;
+  }
+}
+
+.button-reverse{
+  @extend BASE_BUTTON_STYLE;
+  background-color: white;
+
+  &:first-child{
+    @extend BASE_FIRST_BUTTON_STYLE;
+  }
+
+  &:last-child{
+    @extend BASE_LAST_BUTTON_STYLE;
+  }
+
+  &__label{
+    @extend BASE_BUTTON_LABEL_STYLE;
+    color: black;
+  }
+  
+  &__icon{
+    @extend BASE_BUTTON_ICON_STYLE;
+    color: black;
+  }
+}
