@@ -1,6 +1,8 @@
-const index = ({text}) => {
+import './description.scss'
+
+const index = ({text,style}) => {
   return (
-    <p>{text}</p>
+    <p className='description' style={style}>{text}</p>
   )
 }
 

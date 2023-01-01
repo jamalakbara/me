@@ -1,0 +1,27 @@
+@import '/public/css/general.scss';
+
+.service{
+    display: flex;
+    min-height: 100vh;
+    background-color: $yellow;
+    padding-top: $navbar-height;
+
+    &__head{
+        flex: 1 1 33.333%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__main{
+        flex: 1 1 66.666%;
+    }
+    &__desc{
+        display: flex;
+    }
+
+    &__icon{
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+}

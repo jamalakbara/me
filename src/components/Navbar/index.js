@@ -4,7 +4,7 @@ import './navbar.scss'
 
 const index = () => {
   return (
-    <nav className="nav">
+    <nav className="nav container">
       <section className="nav__logo">
         <Logo />
       </section>

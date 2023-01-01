@@ -1,0 +1,45 @@
+@import '/public/css/general.scss';
+
+.home{
+    display: flex;
+    min-height: 100vh;
+    padding-top: $navbar-height;
+
+    &__main{
+        flex: 1 1 33.333%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__misc{
+        flex: 1 1 66.666%;
+    }
+
+    &__foot{
+        display: flex;
+        flex-direction: column;
+        margin: 24px 0;
+    }
+
+    &__desc{
+        display: flex;
+    }
+
+    &__icon{
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    &__buttons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 24px 0;
+    }
+
+    &__sosmed{
+        display: flex;
+        align-items: center;
+    }
+}
